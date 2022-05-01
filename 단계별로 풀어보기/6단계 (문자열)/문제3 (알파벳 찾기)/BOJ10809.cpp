@@ -12,8 +12,8 @@ int main(void) {
     string str;
     cin >> str;
     
-    int iIndexArr['z' - 'a'];
-    fill_n(iIndexArr, 'z' - 'a', -1);
+    int iIndexArr['z' - 'a' + 1];
+    fill_n(iIndexArr, 'z' - 'a' + 1, -1);
     
     for (int i = 0; i < str.size(); i++) {
     	if (iIndexArr[str[i] - 'a'] == -1) {
@@ -21,7 +21,7 @@ int main(void) {
 		}
 	}
 	
-	for (int i = 0; i < 'z' - 'a'; i++) {
+	for (int i = 0; i <= 'z' - 'a'; i++) {
 		cout << iIndexArr[i] << " ";
 	}
 	
