@@ -50,7 +50,7 @@ int main(void) {
 
 
 	int len = MAX_SIZE;
-	int list[MAX_SIZE] = {7, 6, 9, 1, 3};
+	//int list[MAX_SIZE] = {7, 6, 9, 1, 3};
 	
 	
 	std::cout << "Before MergeSort: ";
